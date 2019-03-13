@@ -15,9 +15,5 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_index = array.index{|x| cheese_types.include?(x) == true}
-  if cheese_index == []
-    nil
-  else 
     array[cheese_index]
-  end
 end
