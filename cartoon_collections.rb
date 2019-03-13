@@ -19,4 +19,5 @@ def find_the_cheese(array)
       cheese_index
     else
       array[cheese_index]
+    end
 end
